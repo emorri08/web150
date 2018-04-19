@@ -1,0 +1,138 @@
+/* 
+Elly Boyd
+WEB 150
+Final Project
+
+style.css
+*/
+
+html {
+    font-size:14px; 
+    background:url(http://ellycodes.com/web150/final/images/cityBG.jpg) bottom center;
+    background-size:cover;
+}
+
+#bannerImg {
+    margin-left:200px;
+}
+
+#content {
+    min-height:603px;
+}
+
+#heading {
+    text-align:center;
+    width:45%;
+    margin-left:22.5%;
+    padding-left:15px;
+    padding-right:15px;
+    background-color:rgba(255,0,0,0.25);
+    border:5px ridge black;
+}
+
+#mainHeading {
+    font-family:'Raleway', sans-serif;
+    font-size:36px;
+    color:#999;
+    text-shadow:-3px 1px 0px #000;
+}
+
+#mainHeadline {
+    font-family:'Raleway', sans-serif;
+    font-size:48px;
+    color:#999;
+    text-shadow:-3px 1px 0px #000;
+    padding-left:40px;
+    padding-bottom:20px;
+    margin-left:200px;
+}
+
+#subHead {
+    font-family:'Shadows Into Light Two', sans-serif ;
+    font-size:20px;
+}
+
+#subHeadline {
+    font-family:'Raleway', sans-serif;
+    font-size:36px;
+    color:#999;
+    text-shadow:-3px 1px 0px #000;
+    padding-left:40px;
+    margin-left:500px;
+}
+
+#success h1 {
+    padding-left:200px;
+    font-family:'Righteous', sans-serif;
+    font-size:48px;
+    color:#333;
+    text-shadow:-1px 2px 3px #d80041;
+}
+
+#content h2#subHead {
+    font-size:28px;
+    padding-left:40px;
+    padding-bottom:15px;
+    margin-left:200px;
+}
+
+#featuredImage {
+    max-width:275px;
+    margin:20px 10px 10px 36%;
+    border:5px inset indianred;
+}
+
+#quote {
+    font-family:'Tangerine', cursive;
+    font-size:32px;
+    margin-left:21%;
+    font-weight:bold;
+}
+
+#tabsContainer {
+    width:900px;
+    margin:auto;
+}
+
+#accordionContainer {
+    width:900px;
+    margin:auto;
+}
+
+#imgContainer {
+    padding-left:200px;
+}
+
+#imageOne {
+    padding-top:100px;
+    width:30%;
+    float:left;
+}
+
+#imageTwo {
+    padding-top:100px;
+    width:30%;
+    float:left;
+}
+
+#imageThree {
+    padding-top:100px;
+    width:30%;
+    float:left;
+}
+
+img.extrasImg {
+    width:250px;
+    border:5px inset indianred;
+}
+
+button {
+    margin-top:100px;
+    margin-right:400px;
+    margin-left:50px
+}
+
+
+footer {
+    text-align:center;
+}

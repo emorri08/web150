@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Drum Kit</title>   
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+     <link rel="stylesheet" href="css/drums.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/blitzer/jquery-ui.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="banner">
+<!-- banner -->
+       
+            <img id="bannerImg" class="bannerImage" src="images/paws.png" alt="Banner Image">
+ 
+    <!-- end -->        </div>
+  
+<!-- navigation -->
+        <nav id="cssmenu">
+            <ul id="menu">
+                <li id="home" class="active">
+                    <a href="index.html">
+                        <span><i class="fa fa-fw fa-home"></i> Home</span>
+                    </a>
+                </li>
+                
+                <li id="about">
+                    <a href="about.html">
+                        <span><i class="fa fa-fw fa-star"></i> About</span>
+                    </a>
+                </li>
+                
+                <li id="resources">
+                    <a href="resources.html">
+                        <span><i class="fa fa-fw fa-paw"></i> Resources</span>
+                    </a>
+                </li>
+                
+                <li id="contact">
+                    <a href="form.html">
+                        <span><i class="fa fa-fw fa-envelope"></i> Contact</span>
+                    </a>
+                </li>
+                
+                <li id="extras" class="has-sub">
+                    <a href="extras.html">
+                        <span><i class="fa fa-fw fa-gift"></i> Extras!</span>
+                    </a>
+                    
+                        <ul id="sub-nav">
+                            <li id="photoGallery">
+                                <a href="gallery.html">
+                                    <span><i class="fa fa-fw fa-camera-retro"></i> Photo Gallery</span>
+                                </a>
+                            </li>
+                            
+                            <li id="drumKit">
+                                <a href="drums.html">
+                                    <span><i class="fa fa-fw fa-music"></i> Drum Kit</span>
+                                </a>
+                            </li>
+                            
+                            <li id="clock">
+                                <a href="clock.html">
+                                    <span><i class="fa fa-fw fa-clock-o"></i> Clock</span>
+                                </a>
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+        </nav>
+<!-- end nav -->
+            
+    </header>
+<!-- end header-->
+        
+<!-- page content -->
+<div id="content">
+    <button><a href="index.html">Back to Home Page</a></button>
+ <!-- create the boxes that say which letter to press and which associated sound will be played -->   
+   <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+                <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+                <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+                <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+                <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+                <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+                <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+            <kbd>J</kbd>
+                <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+            <kbd>K</kbd>
+                <span class="sound">tom</span>
+        </div>
+        <div data-key="76" class="key">
+            <kbd>L</kbd>
+                <span class="sound">tink</span>
+        </div>
+  </div>
+    <!-- end -->
+
+    <!-- the associated sounds -->
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+   <!-- end -->     
+
+</div>
+<footer>
+        <p>
+            <small>&copy; 2017, E. Boyd, <a href="http://3tabbies.com">3 Tabbies</a>, All Rights Reserved.</small>
+        </p>
+    </footer>
+        <script src="js/script.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/drum-kit.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>       
+</body>
+</html>
