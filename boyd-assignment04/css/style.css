@@ -1,0 +1,140 @@
+/* Eleanor Boyd - WEB150 - Assignment 04 - CSS Styles */
+html {
+    background-color:#000;
+}
+
+header {
+    width:100%;
+}
+
+img.banner {
+    max-width:645px;
+}
+
+section {
+    float:left;
+}
+
+aside {
+    float:right;
+    margin-right:35px;
+}
+
+h1 {
+    color:#8eb4ff;
+    margin-left:60px;
+    text-align:center;
+}
+
+h2 {
+    color:#5fc7bc;
+    margin-left:80px;
+    text-align:center;
+}
+
+h2#products {
+    color:#f9e6ac;
+    margin-left:80px;
+    text-align:center;
+    font-size:24px;
+    font-variant:small-caps;
+    
+}
+
+h2#original {
+    color:#f9e6ac;
+    margin-left:80px;
+    text-align:center;
+    font-size:24px;
+    font-variant:small-caps;
+}
+
+ol {
+    list-style-type:none;
+    margin:25px;
+    color:#000;
+}
+
+li {
+    border:ridge 5px #dbbca1;
+    padding:20px;
+    width:400px;
+    font-family:sans-serif;
+    font-size:115%;
+}
+
+li.tealight {
+    background-color:#37cc80;
+}
+
+li.taper {
+    background-color:#3ad6b2;
+}
+
+li.pillar {
+    background-color:#3db8bf;
+}
+
+li.votive {
+    background-color:#3aa5d6;
+}
+
+li.jar {
+    background-color:#3776cc;
+}
+
+#results {
+    margin-left:65px;
+    width:385px;
+    padding:25px;
+    background-color:#f24935;
+    font-weight:bold;
+    color:#fff;
+    font-family:sans-serif;
+    border:ridge 7.5px #dbbca1;
+}
+
+ul {
+    list-style-type:none;
+    margin:25px;
+    color:#000;
+}
+
+li.first {
+    background-color:#37cc80;
+}
+
+li.second {
+    background-color:#3ad6b2;
+}
+
+li.third {
+    background-color:#3db8bf;
+}
+
+li.fourth {
+    background-color:#3aa5d6;
+}
+
+li.fifth {
+    background-color:#3776cc;
+}
+
+footer {
+    clear:both;
+    color:white;
+    padding:25px;
+    margin:25px;
+    text-align: center;
+    font-size:90%;
+}
+
+a {
+    color:#dbff32;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#4b9cff;
+    text-decoration:underline;
+}

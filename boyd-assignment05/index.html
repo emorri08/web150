@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- Eleanor Boyd - WEB150 - Assignment 5 - Bill Calculator -->
+<html>
+<head>
+    <title>Eleanor Boyd - Assignment 5 - Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="page">     
+            <h2>Eleanor Boyd - Assignment 5 - Bill Calculator</h2>
+            <form id="billCalculator" action="#">
+                <label id="billSubTotal" for="Bill Subtotal">Bill Subtotal</label>
+                <input type="number" id="billAmt" min="0" max="1000" step=".01"/>
+                    <span id="error1">Enter Subtotal</span>
+                        <br/>
+                <label id="taxRate" for="Tax Rate">Tax Rate</label>
+                <input type="number" id="rate" min="0" max="25" step=".01"/>
+                    <span id="error2">Enter sales tax rate (e.g. 9.5)</span>
+                        <br/>
+                <label id="taxAmt" for="Sales Tax">Sales Tax</label>
+                <input type="number" id="salesTax" disabled="disabled"/>
+                    <br/>
+                <label id="totalBill" for="Total">Total</label>
+                <input type="number" id="total" disabled="disabled"/>
+                    <br/>
+                <input type="button" id="calculateTotal" value="Calculate"/>
+                <input type="button" id="clearForm" value="Clear Form"/>
+            </form>
+        </div>
+        <script type="text/javascript" src="bill-calculator.js"></script>
+    </body>
+</html>

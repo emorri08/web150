@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Eleanor Boyd - WEB150 - Assignment 6 - Miles Per Gallon Calculator -->
+<html>
+<head>
+    <title>Eleanor Boyd - Assignment 6 - Miles Per Gallon Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div id="page">     
+            <h1>Eleanor Boyd - WEB150 - Assignment 5 - Bill Calculator</h1>
+            <h2>How many miles per gallon does your car use?</h2>
+                <form id="mpgCalculator" action="#">
+                    <label id="totalMilesDriven" for="Miles Driven">Enter Miles Driven: </label>
+                        <br/>
+                    <input type="text" id="milesDriven" min="0"/>
+                        <br/>
+                    <label id="totalGallonsUsed" for="Gallons Used">Enter Gallons of Gas Used: </label>
+                        <br/>
+                    <input type="text" id="gallonsUsed" min="0"/>
+                        <br/>
+                    <label id="milesPerGallon" for="Miles Per Gallon">Miles Per Gallon: </label>
+                        <br/>
+                    <input type="text" id="mpg" disabled="disabled"/>
+                        <br/>
+                    <input type="button" id="calculateMPG" value="Calculate MPG"/>
+                        <br/>
+                    <input type="button" id="clearForm" value="Clear Form"/>
+                </form>
+        </div>
+            <script type="text/javascript" src="mpg-calculator.js"></script>
+        <footer>
+            <small>&copy; 2017 E. Boyd, All Rights Reserved.</small>
+        </footer>
+    </body>
+</html>

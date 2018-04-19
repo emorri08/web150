@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flickr API Test</title>
+<style>
+    #container {
+        margin:auto;
+        padding:5px
+    }
+</style>
+</head>
+<body>
+
+        <h1>Working with getJSONData method</h1>
+    <div id="container"></div>
+        <button onclick="getJSONData()">Load Flickr Images</button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function getJSONData(){
+    //jquery getJSON method
+    var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?"; //url to send request to
+    $.getJSON(flickrAPI, {//data
+        tags: "cats, kittens",
+        tagmode: "any",
+        format: "json"
+    },
+          succeeded); //success    
+    
+    function succeeded(result){
+        $.each(result.items, function(i, item){
+            $("<img>").attr("src",
+            item.media.m).appendTo("#container");
+            
+            if(i === 20){
+                return false;
+            }
+        });
+    }
+    
+    function fail (xhr, status, strErr){
+        alert (strErr);
+    }
+    }
+    
+    
+    
+</script>
+</body>
+</html>

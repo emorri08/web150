@@ -1,0 +1,686 @@
+/* Eleanor Boyd - WEB150 - Assignment 04 - CSS Styles */
+html {
+    background-color:#000;
+}
+
+header {
+    width:100%;
+}
+
+img.banner {
+    max-width:645px;
+}
+
+section {
+    float:left;
+    width:35%;
+}
+
+aside {
+    float:right;
+    margin-right:55px;
+    width:60%;
+}
+
+h1 {
+    color:#8eb4ff;
+    margin-left:60px;
+    text-align:center;
+}
+
+h2 {
+    color:#5fc7bc;
+    text-align:center;
+}
+
+h3#products {
+    color:#f9e6ac;
+    margin-left:80px;
+    text-align:center;
+    font-size:24px;
+    font-variant:small-caps; 
+}
+
+h2#original {
+    width:500px;
+    color:#f9e6ac;
+    margin-right:100px;
+    font-size:24px;
+    font-variant:small-caps;
+}
+
+.tabsContainer {
+    width:600px;
+    margin:auto;
+}
+
+ol {
+    list-style-type:none;
+    margin:25px;
+    color:#000;
+}
+
+li.productList {
+    border:outset 3px #dbbca1;
+    padding:15px;
+    width:200px;
+    font-family:sans-serif;
+    font-size:125%;
+    margin-left:50px;
+    color:#000;
+}
+
+li#one {
+    text-align:center;
+    background-color:#37cc80;
+}
+
+li#two {
+    text-align:center;
+    background-color:#3ad6b2;
+}
+
+li#three {
+    text-align:center;
+    background-color:#3db8bf;
+}
+
+li#four {
+    text-align:center;
+    background-color:#3aa5d6;
+}
+
+li#five {
+    text-align:center;
+    background-color:#3776cc;
+}
+
+li#six {
+    text-align:center;
+    background-color:#3aa5d6;
+}
+
+li#seven {
+    text-align:center;
+    background-color:#3db8bf;
+}
+
+li#eight {
+    text-align:center;
+    background-color:#3ad6b2;
+}
+
+li#nine {
+    text-align:center;
+    background-color:#37cc80;
+}
+
+#results {
+    margin-top: 50px;
+    margin-left:70px;
+    width:260px;
+    padding:25px;
+    background-color:#f24935;
+    font-weight:bold;
+    color:#fff;
+    font-family:sans-serif;
+    border:ridge 7.5px #dbbca1;
+}
+
+#wishListHeadline {
+    color:chartreuse;
+}
+
+#wishList {
+    list-style-type:none;
+    margin:25px 25px 50px 25px;
+    color:#000;
+}
+
+li {
+    color:black;
+    background-color:#fcf5d1;
+    text-align:center;
+    padding:5px;
+    margin:5px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+li.addNewProduct {
+    background-color:turquoise;
+    text-align:center;
+    margin-bottom:5px;
+    padding:5px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+#addNew1 {
+    background-color:#f72a2b;
+    color:#000;
+    text-align:center;
+}
+
+#addNew2 {
+    background-color:#fa7a37;
+    color:#000;
+    text-align:center;
+}
+
+#addNew3 {
+    background-color:#fac55b;
+    color:#000;
+    text-align:center;
+}
+
+#addNewButton {
+    margin:10px;
+}
+
+#showTextField {
+    padding:10px;
+    margin:0px 0px 0px 125px;
+    background-color:#5ac48e;
+    color:#fff;
+    border:5px outset #1fbea9;
+    width:250px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+#form1 {
+    margin:0px 10px 10px 10px;
+    padding:10px;
+}
+
+#newItem {
+    color:black;
+    font-size:115%;
+    padding:10px;
+    margin:0px 0px 10px 25px;
+    width:400px;
+    border:3px inset #f72a2b;
+}
+
+#button {
+    padding:10px;
+    margin:10px 0px 0px 150px;
+    background-color:#5ac48e;
+    border:5px outset #1fbea9;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:13px;
+}
+
+ul {
+    list-style-type:none;
+    margin:25px;
+    color:#fff;
+}
+
+/* start color styles */
+ul.colorList {
+    margin:20px;
+}
+
+li.white{
+    background-color:white;
+    color:black;
+    padding:10px;
+}
+
+li.cream {
+    background-color:navajowhite;
+    color:black;
+    padding:10px;
+}
+
+li.powderBlue {
+    background-color:powderblue;
+    color:black;
+    padding:10px;
+}
+
+li.maroon {
+    background-color:maroon;
+    color:antiquewhite;
+    padding:10px;
+}
+
+li.oliveGreen {
+    background-color:olive;
+    color:black;
+    padding:10px;
+}
+
+li.silver {
+    background-color:silver;
+    color:black;
+    padding:10px;
+}
+
+li.pink {
+    background-color:hotpink;
+    color:black;
+    padding:10px;
+}
+
+li.purple {
+    background-color:rebeccapurple;
+    color:white;
+    padding:10px;
+}
+
+li.green {
+    background-color:green;
+    color:white;
+    padding:10px;
+}
+
+li.cranberry {
+    background-color:crimson;
+    color:black;
+    padding:10px;
+}
+
+li.blue {
+    background-color:dodgerblue;
+    color:black;
+    padding:10px;
+}
+
+li.red {
+    background-color:red;
+    color:black;
+    padding:10px;
+}
+
+li.mintGreen {
+    background-color:palegreen;
+    color:black;
+    padding:10px;
+}
+
+li.lightPurple {
+    background-color:lavender;
+    color:black;
+    padding:10px;
+}
+
+li.yellow {
+    background-color:yellow;
+    color:black;
+    padding:10px;
+}
+/* end color styles */
+
+/* start scent styles */
+#scent {
+    padding:10px;
+    text-align: center;
+}
+
+#scentOne {
+    background-color:white;
+    color:black;
+    padding:5px
+}
+
+#scentTwo {
+    background-color:tan;
+    color:black;
+    padding:5px
+}
+
+#scentThree {
+    background-color:lightpink;
+    color:black;
+    padding:5px
+}
+
+#scentFour {
+    background-color:lavender;
+    color:black;
+    padding:5px
+}
+
+#scentFive {
+    background-color:darkmagenta;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentSix {
+    background-color:lightblue;
+    color:black;
+    padding:5px
+}
+
+#scentSeven {
+    background-color:teal;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentEight {
+    background-color:forestgreen;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentNine {
+    background-color:darkred;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentTen {
+    background-color:crimson;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentEleven {
+    background-color:lightgreen;
+    color:black;
+    padding:5px
+}
+
+#scentTwelve {
+    background-color:orchid;
+    color:black;
+    padding:5px
+}
+
+#scentThirteen {
+    background-color:yellow;
+    color:black;
+    padding:5px
+}
+
+#scentFourteen {
+    background-color:limegreen;
+    color:black;
+    padding:5px
+}
+
+#scentFifteen {
+    background-color:red;
+    color:antiquewhite;
+    padding:5px
+}
+
+#scentSixteen {
+    background-color:coral;
+    color:black;
+    padding:5px
+}
+
+/* end scent styles */
+
+/* start sizes styles */
+h3.candleSizes, h4.sizesSub {
+    color:#d8fb85;
+    text-shadow:1px 1px 0px #b073fa;
+    text-align:center;
+}
+
+#teaLightOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#teaLightTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#teaLightThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#teaLightFour {
+    background-color:#b073fa;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#taperOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#taperTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#taperThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#taperFour {
+    background-color:#b073fa;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundFour {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundFive {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarRoundSix {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareFour {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareFive {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarSquareSix {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarFour {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarFive {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#pillarStarSix {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#votiveOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#votiveTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#votiveThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#jarOne {
+    background-color:#afe694;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#jarTwo {
+    background-color:#94beb4;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#jarThree {
+    background-color:#9692dc;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+
+#jarFour {
+    background-color:#b073fa;
+    border:3px outset #d8fb85;
+    text-shadow:1px 1px 0px #d8fb85;
+}
+/* end sizes styles */
+
+
+/* start wax type styles */
+
+#waxOne {
+    text-align:center;
+    padding:15px;
+    background-color:#eee679;
+    border:1px solid #5fd9aa;
+    margin:5px;
+    color:#000;
+    font-size:120%;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #ef3b35;
+}
+
+#waxTwo {
+    text-align:center;
+    padding:15px;
+    background-color:#ffca41;
+    border:1px solid #5fd9aa;
+    margin:5px;
+    color:#000;
+    font-size:120%;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #ef3b35;
+}
+
+#waxThree {
+    text-align:center;
+    padding:15px;
+    background-color:#ff822f;
+    border:1px solid #5fd9aa;
+    margin:5px;
+    color:#000;
+    font-size:120%;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #ef3b35;
+}
+/* end wax type styles */
+
+footer {
+    clear:both;
+    color:white;
+    padding:25px;
+    margin:25px;
+    text-align: center;
+    font-size:90%;
+}
+
+a {
+    color:#dbff32;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#4b9cff;
+    text-decoration:underline;
+}

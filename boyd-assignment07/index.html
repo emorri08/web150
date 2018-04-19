@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>Eleanor Boyd - WEB150 - Assignment 07</title>
+            <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/dark-hive/jquery-ui.css">
+    </head>
+<!-- end of header -->
+    
+<!-- begin main page content -->
+    <body>
+        
+        <header>
+            <img class="banner" src="images/3tabbies-candle-company.png" alt="3 Tabbies Logo">
+        </header>
+        
+            <div id="container">
+<!-- begin left column -->
+            <section>
+                <h1 id="heading">Eleanor Boyd - WEB150 - Assignment 07</h1>
+                <h2 id="tabbies">3 Tabbies Candle Company</h2>
+<!-- first list of products -->
+                <h3 id="products">Types of Candles:</h3>
+                    <ol id="candle">
+                        <li id="one" class="productList">Tea-light</li>
+                        <li id="two" class="productList">Taper</li>
+                        <li id="three" class="productList">Pillar</li>
+                        <li id="four" class="productList">Votive</li>
+                        <li id="five" class="productList">Jar</li>
+                        <li id="six" class="productList">Floating</li>
+                        <li id="seven" class="productList">Hand Carved</li>
+                        <li id="eight" class="productList">Hand Sculpted</li>
+                        <li id="nine" class="productList">Other</li>
+                    </ol>
+                
+<!-- not using this div at the moment
+                        <div id="results"></div>
+-->
+                
+<!--end first list of products -->
+
+
+            </section>
+<!-- end left column -->
+                
+<!-- begin right column -->
+            <aside>
+                    <h2>3 Tabbies Candle Company</h2>
+                    <h3>Customize Your Candles!</h3>
+<!-- begin tabs -->            
+                <div class="tabsContainer">
+                <div id="tabs"><!-- this list is the text that appears on the tabs -->
+                    <ul>
+                        <li><a href="#tab-1">Colors</a></li>
+                        <li><a href="#tab-2">Scents</a></li>
+                        <li><a href="#tab-3">Sizes</a></li>
+                        <li><a href="#tab-4">Wax Type</a></li>
+                        <li><a href="#tab-5">Wish List</a></li>
+                    </ul>
+                    <div id="tab-1">
+<!-- begin accordion -->
+                        <div id="accordion1">
+                            <h3>Tea-Light Color Options</h3>
+                                <div>
+                                    <ul id="teaLightcolor" class="colorList">
+                                        <li id="colorOne" class="white">White</li>
+                                        <li id="colorTwo" class="cream">Cream</li>
+                                        <li id="colorThree" class="powderBlue">Powder Blue</li>
+                                        <li id="colorFour" class="maroon">Maroon</li>
+                                        <li id="colorFive" class="oliveGreen">Olive Green</li>
+                                    </ul>
+                                </div>
+                            <h3>Taper Color Options</h3>
+                                <div>
+                                    <ul id="taperColor" class="colorList">
+                                        <li id="colorSix" class="white">White</li>
+                                        <li id="colorSeven" class="cream">Cream</li>
+                                        <li id="colorEight" class="silver">Silver</li>
+                                        <li id="colorNine" class="pink">Pink</li>
+                                        <li id="colorTen" class="purple">Purple</li>
+                                    </ul>
+                                </div>
+                            <h3>Pillar Color Options</h3>
+                                <div>
+                                    <ul id="pillarColor" class="colorList">
+                                        <li id="colorEleven" class="white">White</li>
+                                        <li id="colorTwelve" class="cream">Cream</li>
+                                        <li id="colorThirteen" class="green">Green</li>
+                                        <li id="colorFourteen" class="cranberry">Cranberry</li>
+                                        <li id="colorFifteen" class="blue">Blue</li>
+                                    </ul>
+                                </div>
+                            <h3>Votive Color Options</h3>
+                                <div>
+                                    <ul id="votiveColor" class="colorList">
+                                        <li id="colorSixteen" class="white">White</li>
+                                        <li id="colorSeventeen" class="cream">Cream</li>
+                                        <li id="colorEighteen" class="red">Red</li>
+                                        <li id="colorNineteen" class="mintGreen">Mint Green</li>
+                                        <li id="colorTwenty" class="pink">Pink</li>
+                                    </ul>
+                                </div>
+                            <h3>Jar Color Options</h3>
+                                <div>
+                                    <ul id="jarColor" class="colorList">
+                                        <li id="colorTwentyOne" class="maroon">Maroon</li>
+                                        <li id="colorTwentyTwo" class="cream">Cream</li>
+                                        <li id="colorTwentyThree" class="green">Green</li>
+                                        <li id="colorTwentyFour" class="lightPurple">Light Purple</li>
+                                        <li id="colorTwentyFive" class="yellow">Yellow</li>
+                                    </ul>
+                                </div>
+                        </div>
+<!-- end accordion -->
+                    </div>
+                    <div id="tab-2">
+                        <h3 id="scent">Select your scent(s) from the list below.</h3>
+                        <ul id="scents"><!-- list of scent options -->
+                            <li id="scentOne" class="scentList">Un-scented</li>
+                            <li id="scentTwo" class="scentList">Vanilla</li>
+                            <li id="scentThree" class="scentList">Rose</li>
+                            <li id="scentFour" class="scentList">Lavender</li>
+                            <li id="scentFive" class="scentList">Berry</li>
+                            <li id="scentSix" class="scentList">Clean Linen</li>
+                            <li id="scentSeven" class="scentList">Ocean Breeze</li>
+                            <li id="scentEight" class="scentList">Pine</li>
+                            <li id="scentNine" class="scentList">Cinnamon</li>
+                            <li id="scentTen" class="scentList">Cranberry</li>
+                            <li id="scentEleven" class="scentList">Mint</li>
+                            <li id="scentTwelve" class="scentList">Orchid</li>
+                            <li id="scentThirteen" class="scentList">Lemon</li>
+                            <li id="scentFourteen" class="scentList">Key Lime Pie</li>
+                            <li id="scentFifteen" class="scentList">Apple</li>
+                            <li id="scentSixteen" class="scentList">Tropical</li>
+                        </ul>
+                    </div>
+                    <div id="tab-3">
+<!-- begin size lists -->
+                        <h3 id="sizesOne" class="candleSizes">Tea-Light</h3>
+                        <ul id="teaLightSizes">
+                            <li id="teaLightOne" class="sizes">Pack of 5</li>
+                            <li id="teaLightTwo" class="sizes">Pack of 10</li>
+                            <li id="teaLightThree" class="sizes">Pack of 20</li>
+                            <li id="teaLightFour" class="sizes">Pack of 50</li>
+                        </ul> 
+                        <h3 id="sizesTwo" class="candleSizes">Taper (sold in pairs)</h3>
+                        <ul id="taperSizes">
+                            <li id="taperOne" class="sizes">4 inch</li>
+                            <li id="taperTwo" class="sizes">6 inch</li>
+                            <li id="taperThree" class="sizes">8 inch</li>
+                            <li id="taperFour" class="sizes">10 inch</li>
+                        </ul>
+                        <h3 id="sizesThree" class="candleSizes">Pillar</h3>
+                        <h4 id="pillarOne" class="sizesSub">small round</h4>
+                        <ul id="smallRound">
+                            <li id="pillarRoundOne" class="sizes">4 inch</li>
+                            <li id="pillarRoundTwo" class="sizes">6 inch</li>
+                            <li id="pillarRoundThree" class="sizes">8 inch</li>
+                        </ul>
+                        <h4 id="pillarTwo" class="sizesSub">large round</h4>
+                        <ul id="largeRound">
+                            <li id="pillarRoundFour" class="sizes">4 inch</li>
+                            <li id="pillarRoundFive" class="sizes">6 inch</li>
+                            <li id="pillarRoundSix" class="sizes">8 inch</li>
+                        </ul>
+                        <h4 id="pillarThree" class="sizesSub">small square</h4>
+                        <ul id="smallSquare">
+                            <li id="pillarSquareOne" class="sizes">4 inch</li>
+                            <li id="pillarSquareTwo" class="sizes">6 inch</li>
+                            <li id="pillarSquareThree" class="sizes">8 inch</li>
+                        </ul>
+                        <h4 id="pillarFour" class="sizesSub">large square</h4>
+                        <ul id="largeSquare">
+                            <li id="pillarSquareFour" class="sizes">4 inch</li>
+                            <li id="pillarSquareFive" class="sizes">6 inch</li>
+                            <li id="pillarSquareSix" class="sizes">8 inch</li>
+                        </ul>
+                        <h4 id="pillarFive" class="sizesSub">small star</h4>
+                        <ul id="smallStar">
+                            <li id="pillarStarOne" class="sizes">4 inch</li>
+                            <li id="pillarStarTwo" class="sizes">6 inch</li>
+                            <li id="pillarStarThree" class="sizes">8 inch</li>
+                        </ul>
+                        <h4 id="pillarSix" class="sizesSub">large star</h4>
+                        <ul id="largeStar">
+                            <li id="pillarStarFour" class="sizes">4 inch</li>
+                            <li id="pillarStarFive" class="sizes">6 inch</li>
+                            <li id="pillarStarSix" class="sizes">8 inch</li>
+                        </ul>
+                        <h3 id="sizesFour" class="candleSizes">Votive</h3>
+                        <ul id="votiveSizes">
+                            <li id="votiveOne" class="sizes">Small</li>
+                            <li id="votiveTwo" class="sizes">Medium</li>
+                            <li id="votiveThree" class="sizes">Large</li>
+                        </ul>
+                        <h3 id="sizesFive" class="candleSizes">Jar</h3>
+                        <ul id="jarSizes">
+                            <li id="jarOne" class="sizes">1 wick short</li>
+                            <li id="jarTwo" class="sizes">3 wick short</li>
+                            <li id="jarThree" class="sizes">1 wick tall</li>
+                            <li id="jarFour" class="sizes">3 wick tall</li>
+                        </ul>
+<!-- end size lists -->
+                    </div>
+                    <div id="tab-4">
+                        <button id="wax">Click here to view the wax options</button>
+                            <ul id="waxType"><!--wax types -->
+                                <li id="waxOne" class="waxList">Standard</li>
+                                <li id="waxTwo" class="waxList">Soy</li>
+                                <li id="waxThree" class="waxList">Beeswax</li>
+                            </ul>
+                    </div>
+                    <div id="tab-5">
+                        <!-- short product list and "add new list item" form -->
+                        <h3 id="wishListHeadline" class="wishList">Wish List</h3>
+                            <ol id="wishList">
+                                <li id="addNew1" class="addNewProduct">Item One</li>
+                                <li id="addNew2" class="addNewProduct">Item Two</li>
+                                <li id="addNew3" class="addNewProduct">Item Three</li>
+                            </ol>
+                    <div id="addNewButton"><button href="#" id="showTextField">Add an Item to the List</button></div>
+                        <form id="form1">
+                            <input type="text" id="newItem" placeholder="enter the item you would like to add here..." />
+                                <br/>
+                            <input type="submit" id="button" value="Add Item Now!" />
+                        </form>
+<!-- end short product list and "add new list item" form -->
+                    </div>
+                </div>
+            </div>
+    <!-- end tabs container -->
+            </aside>
+    <!-- end right column -->
+        </div>
+    <script src="js/assignment07.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<!-- begin footer -->
+        <footer>
+            <p>
+                <small>&copy; 2017, E. Boyd, <a href="http://3tabbies.com" target="_blank">3 Tabbies Candle Company</a></small>
+            </p>        
+        </footer>
+<!-- end footer -->
+    </body>
+</html>

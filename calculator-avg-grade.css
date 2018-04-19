@@ -1,0 +1,56 @@
+/* Eleanor Boyd - WEB150 - Weeks 3 and 4 Online Assignment
+Calculator - Average Grade
+calculator-avg-grade.css */
+
+html {
+    background-color:#35528c;
+    color:#2a3a59;
+}
+
+#container {
+    background-color:#f2e9ce;
+    padding-left:25px;
+    padding-bottom:25px;
+    width:80%;
+    margin:auto;
+    border:3px solid #0ff900;
+    border-bottom-style: ridge;
+    box-shadow:-3px 3px 2px #000;
+}
+
+h2 {
+    color:#403a35;
+    text-shadow:-1px 1px 0px #000;
+}
+
+h3 {
+    color:#8c703b;
+    text-decoration:underline;
+    text-shadow:-1px 1px 0px #000;
+    
+}
+
+footer {
+    padding:25px;
+    text-align:center;
+    margin:25px;
+}
+
+small {
+    background-color:#f2e9ce;
+    padding:25px;
+    border:3px solid #0ff900;
+}
+
+a {
+    color:#403a35;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#8c703b;
+}
+
+a:hover {
+    color:#35528c;
+}

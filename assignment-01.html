@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<title>Eleanor Boyd: Assignment 01</title>
+</head>
+<html>
+<body>
+    <h2>Assignment 01 - Invoice Calculator</h2>
+    <h2 id="output"></h2>
+    <script>
+
+    //variable for invoice amount
+        var amt = prompt("Please enter the pre-tax amount of your invoice", "0")
+        
+    //variable for tax rate
+        var rate = .1
+        
+    //variable for parseFloat
+        var invoice = parseFloat(amt);
+        
+    //variable for tax amount
+        var tax = invoice * rate;
+        
+    //variable for invoice total
+        var total = invoice + tax;
+        
+    //display the total amount of the invoice
+        document.getElementById("output").innerHTML = "The amount you entered was: " + amt + "!" + "<br> Your invoice total is: " + total.toFixed(2);
+
+    </script>
+</body>
+</html>

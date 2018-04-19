@@ -1,0 +1,64 @@
+/* Elly Boyd - WEB150
+Assignment 08 - jQuery FAQ
+assignment08.css */
+
+html{
+    font-family:'arial', sans-serif;
+    background-color:midnightblue;
+}
+
+#banner {
+    
+}
+
+#container {
+    background-color:white;
+    padding:25px 0px 25px 200px;
+    width:1000px;
+    margin:auto;
+    border:5px inset midnightblue;
+    border-radius:50px;
+}
+
+#container h2 {
+    position:relative;
+    color:rebeccapurple;
+    opacity:.001;
+    font-size:50%;
+}
+
+h3 {
+    padding-left: 50px;
+    background-image: url(../images/plus.png);
+    background-position:left center;
+    background-repeat:no-repeat;
+    font-size:125%;
+    cursor:pointer;
+}
+
+h3.minusImage {
+    background-image: url(../images/minus.png);
+}
+
+div {
+    
+}
+
+p {
+    width:500px;
+    padding-left:100px;
+}
+
+ol {
+    margin-left:100px;
+    width:400px;
+}
+
+li {
+    padding:3px 0px 3px 0px;
+}
+
+.moveBack {
+    padding:20px;
+    font-size:150%:
+}
